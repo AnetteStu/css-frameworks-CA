@@ -1,0 +1,47 @@
+@import "_variables.scss";
+@import "_custom.scss";
+
+.navbar-brand {
+  font-family: "Playfair Display";
+  font-size: 20px !important;
+  font-weight: bold !important;
+  color: $primary !important;
+}
+
+.navbar {
+  padding-left: $padding-LR-nav;
+  padding-right: $padding-LR-nav;
+  background-color: $nav-colour !important; //FIX this style gets overwritten :/
+}
+
+.navbar-collapse {
+  .nav-item,
+  .nav-link {
+    color: $accent !important;
+    padding-top: $padding-TB-nav;
+    padding-bottom: $padding-TB-nav;
+  }
+
+  & .active {
+    background-color: $secondary !important;
+    border-radius: 5px;
+  }
+}
+
+.form-control {
+  border: none !important;
+}
+
+.navbar-toggler {
+  border: 0px !important;
+}
+.navbar-toggler:focus {
+  box-shadow: 0px !important;
+} //Remove focus box shadow
+
+// Fix border merge where button and input area meet
+
+.btn-success {
+  background-color: $primary !important;
+  border: none !important;
+}

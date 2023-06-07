@@ -1,0 +1,32 @@
+@import "partials/custom";
+
+@import "../node_modules/bootstrap/bootstrap-scss/functions";
+@import "../node_modules/bootstrap/bootstrap-scss/variables";
+@import "../node_modules/bootstrap/bootstrap-scss/mixins";
+@import "../node_modules/bootstrap/bootstrap-scss/root";
+@import "../node_modules/bootstrap/bootstrap-scss/images";
+@import "../node_modules/bootstrap/bootstrap-scss/grid";
+@import "../node_modules/bootstrap/bootstrap-scss/forms";
+@import "../node_modules/bootstrap/bootstrap-scss/buttons";
+@import "../node_modules/bootstrap/bootstrap-scss/transitions";
+@import "../node_modules/bootstrap/bootstrap-scss/dropdown";
+@import "../node_modules/bootstrap/bootstrap-scss/button-group";
+@import "../node_modules/bootstrap/bootstrap-scss/input-group";
+@import "../node_modules/bootstrap/bootstrap-scss/custom-forms";
+@import "../node_modules/bootstrap/bootstrap-scss/nav";
+@import "../node_modules/bootstrap/bootstrap-scss/navbar";
+@import "../node_modules/bootstrap/bootstrap-scss/card";
+@import "../node_modules/bootstrap/bootstrap-scss/pagination";
+@import "../node_modules/bootstrap/bootstrap-scss/list-group";
+@import "../node_modules/bootstrap/bootstrap-scss/carousel";
+@import "../node_modules/bootstrap/bootstrap-scss/utilities";
+
+@import "partials/_base.scss";
+@import "partials/nav";
+@import "partials/_footer";
+@import "partials/variables";
+@import "partials/_typography";
+
+@import "partials/_home.scss";
+@import "partials/_news.scss";
+@import "partials/_contact.scss";

@@ -1,0 +1,50 @@
+@media only screen and (max-widt: 767px) {
+  .col-md {
+    padding-bottom: 3% !important;
+  }
+}
+
+.btn-primary {
+  background: $primary !important;
+  border-color: transparent !important;
+
+  & .btn-primary:after {
+    //Make this work later
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 20px;
+    height: 100%;
+    background: $tertidary !important;
+  }
+}
+
+.page-link {
+  color: $primary !important;
+  border-color: $primary !important;
+  padding: 0.7em 1.2em !important;
+}
+
+.page-item.active .page-link {
+  background-color: $primary !important;
+  border-color: $primary !important;
+  color: $secondary !important;
+}
+
+.pagination-bottom {
+  padding-top: 3%;
+}
+
+.row-bottom {
+  padding-top: 3%;
+}
+
+.card {
+  border-radius: 1em !important;
+
+  & img {
+    border-top-left-radius: 1em !important;
+    border-top-right-radius: 1em !important;
+  }
+}
